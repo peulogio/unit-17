@@ -1,0 +1,203 @@
+/**
+ * Unit 16 HW- HTML Profile
+ **/
+  
+
+  h1{
+    font-family: 'Cabin', sans-serif;
+    color: rgb(233, 76, 102);
+    text-transform: uppercase;
+    line-height: 10%;
+    font-size: 300%;
+
+  }
+  h2,
+  h3,
+  h4 {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(233, 76, 102);
+    text-transform: uppercase;
+    line-height: 60%;
+  }
+  h5{
+    font-family: 'Cabin', sans-serif;
+    line-height: 5%;
+  }
+  body {
+    font-size: 14px;
+    line-height: 20px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    padding: 0% 10%;
+    background: linear-gradient(135deg, #f75151 0%, #2a50f8 100%);
+  }
+  /*original gradient #f5515f #056be0*/
+  section {
+    margin: 2% 0%;
+  }
+  
+  section::after {
+    content:"";   
+    display:block;
+    clear: both;
+  }
+
+/*Top profile card section starts here*/
+
+  .profile{
+    background-color:#fff;
+    color: #000;
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #888;
+            box-shadow: 0 0 20px #888;
+  }
+
+  .image{
+   float: left;
+   position: absolute;
+   width:27%;
+   border-radius: 50px;
+   margin-left: 7%;
+  }
+
+  .image img{
+    height:100%;
+    width:100%;
+  }
+
+  .name{
+   float: right;
+   width:50%;
+   margin:15px 0px 40px 0px;
+  }
+
+  .button{
+    padding: 10px 10px;
+    color: #fff;
+    height: 20px;
+    width: 170px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    background: #f5515f;
+    /*background: linear-gradient(135deg, #f5825f 0%, #f5005f 100%);*/
+  }
+
+ .name a{
+   text-decoration: none;
+
+ }
+ .button:hover{
+  background: #f7828b;
+
+}
+
+.btn-group{
+  width: 100%;
+}
+
+.btn-group > button {
+    width: 49%;
+    background-color: #566ac2;
+    border-radius: 5px; 
+    color: #fff; 
+    height: 50px;
+  }
+  
+
+
+/*Top profile card section ends here*/
+
+/*Body content in two vertical sections starts here*/
+.container{
+  width:100%;
+  display:inline-block;
+}  
+
+.left{
+    float: left;
+    width: 49.5%;
+    margin-right: .25%;
+  }
+
+  .right{
+    float: right;
+    width: 49.5%;
+    margin-left: .25%;
+  }
+  /*Text Gradient. Just for fun. DON'T USE.
+  h3{
+    font-size: 20px;
+    background: -webkit-linear-gradient(#05c8e0, #057fe0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  } */
+
+/*Cards on the Left*/
+
+  .about-me {
+    background-color:#fff;
+    color: #000;
+    padding: 20px;
+    height: 30%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #888;
+            box-shadow: 0 0 20px #888;
+  }
+  
+  .education {
+    background-color:#fff;
+    color: #000;
+    padding: 20px;
+    height: 30%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #888;
+            box-shadow: 0 0 20px #888;
+  }
+  
+  .experience {
+    background-color:#fff;
+    color: #000;
+    padding: 20px;
+    height: 30%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #888;
+            box-shadow: 0 0 20px #888;
+  }
+
+  /* Cards on the right*/
+  .skills {
+    background-color:#fff;
+    color: #000;
+    padding: 20px;
+    height: 30%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #888;
+            box-shadow: 0 0 20px #888;
+    }
+
+  .hobbies {
+    background-color:#fff;
+    color: #000;
+    padding: 20px;
+    height: 30%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #888;
+            box-shadow: 0 0 20px #888;
+      }
+
+   .fun-facts {
+    background-color:#fff;
+    color: #000;
+    padding: 20px;
+    height: 30%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #888;
+            box-shadow: 0 0 20px #888;
+      }
+ul {
+     list-style-type: none;
+     padding-left: 0px;
+  }    
